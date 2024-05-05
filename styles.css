@@ -1,6 +1,6 @@
 body {
   font-family: 'Ubuntu', sans-serif; /* Changed font to Ubuntu Bold */
-  background-color: #222;
+  background-color: #000000;
   color: #eee;
   margin: 0;
   padding: 0;
@@ -24,7 +24,7 @@ h1 {
 }
 
 canvas {
-  border: 2px solid #444;
+  border: 7px solid #444;
   background-color: #000;
 }
 
@@ -70,8 +70,9 @@ canvas {
   bottom: 20px;
   right: 20px;
   padding: 10px 20px;
-  font-size: 16px;
-  background-color: #42057c; /* Change the background color */
+  font-family: monospace;
+  font-size: 13px;
+  background-color: #2e0257; /* Change the background color */
   color: white; /* Change the text color */
   border: none;
   border-radius: 40px;
@@ -79,5 +80,5 @@ canvas {
 }
 
 #personal-website-button:hover {
-  background-color: #403d3c; /* Change the background color on hover */
+  background-color: #2f2f2f; /* Change the background color on hover */
 }
