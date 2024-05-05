@@ -1,0 +1,83 @@
+body {
+  font-family: 'Ubuntu', sans-serif; /* Changed font to Ubuntu Bold */
+  background-color: #222;
+  color: #eee;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  color: #ddd;
+}
+
+#game-area {
+  margin-top: 20px;
+  position: relative;
+}
+
+canvas {
+  border: 2px solid #444;
+  background-color: #333;
+}
+
+#score {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+#game-over-screen {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 999;
+}
+
+#game-over-screen div {
+  margin-bottom: 20px;
+}
+
+#restartButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #1007c2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#restartButton:hover {
+  background-color: #52067b;
+}
+
+#personal-website-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #42057c; /* Change the background color */
+  color: white; /* Change the text color */
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+#personal-website-button:hover {
+  background-color: #403d3c; /* Change the background color on hover */
+}
