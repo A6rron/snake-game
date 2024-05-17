@@ -121,3 +121,19 @@ generateApple();
 let gameLoop = setInterval(update, speed);
 
 restartButton.addEventListener("click", restartGame);
+
+const express = require('express');
+const cors = require('cors');
+
+const app = express();
+
+// Allow requests from a6rron.in
+app.use(cors({
+  origin: 'https://a6rron.in'
+}));
+
+// Other middleware and route handlers
+
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+});
