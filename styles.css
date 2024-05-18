@@ -71,14 +71,15 @@ canvas {
   right: 20px;
   padding: 10px 20px;
   font-family: monospace;
-  font-size: 13px;
-  background-color: #2e0257; /* Change the background color */
-  color: white; /* Change the text color */
+  font-size: 10px;
+  background-color: #000000; /* Black background color */
+  color: #ffffff; /* White text color */
   border: none;
-  border-radius: 40px;
+  border-radius: 10px;
   cursor: pointer;
 }
 
 #personal-website-button:hover {
-  background-color: #2f2f2f; /* Change the background color on hover */
+  background-color: #2d2d2d; /* Dark grey background color on hover */
 }
+
